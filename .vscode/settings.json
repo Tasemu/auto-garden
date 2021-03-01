@@ -1,0 +1,12 @@
+{
+    "python.linting.enabled": true,
+    "python.jediEnabled": false,
+
+    // Loaded Stubs:  rp2-micropython-1.13.0 
+    "python.autoComplete.extraPaths": [".micropy/micropython-rp2-1_13-290/frozen", ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen", ".micropy/micropython-rp2-1_13-290/stubs", ".micropy/auto-garden"],
+    "python.autoComplete.typeshedPaths":  [".micropy/micropython-rp2-1_13-290/frozen", ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen", ".micropy/micropython-rp2-1_13-290/stubs", ".micropy/auto-garden"],
+    "python.analysis.typeshedPaths":  [".micropy/micropython-rp2-1_13-290/frozen", ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen", ".micropy/micropython-rp2-1_13-290/stubs", ".micropy/auto-garden"],
+
+    "python.linting.pylintEnabled": true,
+    "python.languageServer": "Microsoft"
+}
